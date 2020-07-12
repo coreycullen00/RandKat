@@ -1,7 +1,7 @@
 import webbrowser
 import random
 
-print("This program will generate a random\nKattis Question based on your Difficulty Peferences!")
+print("This program will generate a random Kattis Question based on your Difficulty Peferences!\n")
 print("Please enter your difficulty range\n")
 lowerBound = float(input("Please enter Your Lower Bound: "))
 upperBound = float(input("Please enter Your Upper Bound: "))
@@ -29,8 +29,9 @@ for i in lines:
         problems.append(Problem(x[0],x[1]))
 
 random.shuffle(problems)
+position = random.randint(0,len(problems))
 
-ID = problems[0].getId()
+ID = problems[position].getId()
 
 URL = 'https://open.kattis.com/problems/' + ID
 
