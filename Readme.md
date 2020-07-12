@@ -21,7 +21,7 @@ To do this just run the "dataWrite.py" file on your command line
 This will print out numbers, the pages of tables on the Open.Kattis.com website, scraping the problemId
 with difficulty. It will print "Finished" when executed.
 
-## instructions:
+## Instructions:
 ### katRand
 This program will open a random Kattis Question in a new Tab based on what difficulty parameters you want.
 	eg.
