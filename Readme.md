@@ -1,2 +1,2 @@
-# __Welcome to RandKat__
+# Welcome to RandKat
 ## What is the purpose of Repo?
