@@ -24,10 +24,11 @@ with difficulty. It will print "Finished" when executed.
 ## Instructions:
 ### katRand
 This program will open a random Kattis Question in a new Tab based on what difficulty parameters you want.
-	eg.
-	LowerBound = 1.3
-	UpperBound = 4.6
-	The program will open a Kattis Problem with its difficulty ranging from 1.3 - 4.6.
+
+	- eg.
+	- LowerBound = 1.3
+	- UpperBound = 4.6
+	- The program will open a Kattis Problem with its difficulty ranging from 1.3 - 4.6.
 
 ### katOpen
 This program will open your desired Kattis problem based on its problem ID.
