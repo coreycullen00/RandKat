@@ -32,7 +32,7 @@ random.shuffle(problems)
 position = random.randint(0,len(problems))
 
 ID = problems[position].getId()
-
+print(ID)
 URL = 'https://open.kattis.com/problems/' + ID
 
 webbrowser.open(URL,new=2)
