@@ -71,7 +71,7 @@ while end is False and pages <= 27:
         else:
             title = (tds[0].text.strip())
             dif = dif.strip()
-            line =title + "," + dif + "," + problemId + "\n"
+            line =problemId + " " + dif + "\n"
             file.write(line.encode('utf-8'))
 
 
