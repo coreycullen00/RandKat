@@ -7,7 +7,7 @@ lowerBound = float(input("Please enter Your Lower Bound: "))
 upperBound = float(input("Please enter Your Upper Bound: "))
 
 if(lowerBound > upperBound):
-    print("ERROR: INVALID BOUNDS")
+    print("ERROR: INVALID BOUND")
     exit(0)
 
 class Problem:
