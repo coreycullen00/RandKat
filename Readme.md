@@ -12,6 +12,8 @@ First you will need to install three packages, copy and paste into the command L
 	- "pip3 install bs4"
 	- "pip3 install fake-useragent"
 	- "pip3 install requests"
+	
+If you dont have pip, install it.
 
 Next you will need to update the data.txt file if it hasnt been updated in a while.
 To do this just run the "dataWrite.py" file on your command line
